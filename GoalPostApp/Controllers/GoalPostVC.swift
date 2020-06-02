@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  GoalPostVC.swift
 //  GoalPostApp
 //
 //  Created by Saurabh Dixit on 6/2/20.
@@ -8,13 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class GoalPostVC: UIViewController {
+    @IBOutlet weak var tableview: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func addGoalBtnPressed(_ sender: Any) {
+        print("btn pressed")
+    }
+    
 }
 

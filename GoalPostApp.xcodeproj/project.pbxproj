@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		52C2706B24866D92002495F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2706A24866D92002495F2 /* AppDelegate.swift */; };
 		52C2706D24866D92002495F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2706C24866D92002495F2 /* SceneDelegate.swift */; };
-		52C2706F24866D92002495F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2706E24866D92002495F2 /* ViewController.swift */; };
+		52C2706F24866D92002495F2 /* GoalPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C2706E24866D92002495F2 /* GoalPostVC.swift */; };
 		52C2707224866D92002495F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C2707024866D92002495F2 /* Main.storyboard */; };
 		52C2707524866D92002495F2 /* GoalPostApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52C2707324866D92002495F2 /* GoalPostApp.xcdatamodeld */; };
 		52C2707724866D99002495F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C2707624866D99002495F2 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		52C2706724866D92002495F2 /* GoalPostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalPostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C2706A24866D92002495F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C2706C24866D92002495F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52C2706E24866D92002495F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52C2706E24866D92002495F2 /* GoalPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPostVC.swift; sourceTree = "<group>"; };
 		52C2707124866D92002495F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52C2707424866D92002495F2 /* GoalPostApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoalPostApp.xcdatamodel; sourceTree = "<group>"; };
 		52C2707624866D99002495F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,9 +58,12 @@
 		52C2706924866D92002495F2 /* GoalPostApp */ = {
 			isa = PBXGroup;
 			children = (
+				52C2708424866EAF002495F2 /* Extensions */,
+				52C2708324866EA4002495F2 /* Enums */,
+				52C2708224866E98002495F2 /* Views */,
+				52C2708124866E85002495F2 /* Controllers */,
 				52C2706A24866D92002495F2 /* AppDelegate.swift */,
 				52C2706C24866D92002495F2 /* SceneDelegate.swift */,
-				52C2706E24866D92002495F2 /* ViewController.swift */,
 				52C2707024866D92002495F2 /* Main.storyboard */,
 				52C2707624866D99002495F2 /* Assets.xcassets */,
 				52C2707824866D99002495F2 /* LaunchScreen.storyboard */,
@@ -68,6 +71,35 @@
 				52C2707324866D92002495F2 /* GoalPostApp.xcdatamodeld */,
 			);
 			path = GoalPostApp;
+			sourceTree = "<group>";
+		};
+		52C2708124866E85002495F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52C2706E24866D92002495F2 /* GoalPostVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52C2708224866E98002495F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		52C2708324866EA4002495F2 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		52C2708424866EAF002495F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52C2706F24866D92002495F2 /* ViewController.swift in Sources */,
+				52C2706F24866D92002495F2 /* GoalPostVC.swift in Sources */,
 				52C2706B24866D92002495F2 /* AppDelegate.swift in Sources */,
 				52C2707524866D92002495F2 /* GoalPostApp.xcdatamodeld in Sources */,
 				52C2706D24866D92002495F2 /* SceneDelegate.swift in Sources */,
